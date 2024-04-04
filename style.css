@@ -1,0 +1,251 @@
+@font-face {
+    font-family: neueBlack;
+    src: url("/fonts/neueHassDisplay/NeueHaasDisplayBlack.ttf");
+}
+
+@font-face {
+    font-family: neueBold;
+    src: url("/fonts/neueHassDisplay/NeueHaasDisplayBold.ttf");
+}
+
+@font-face {
+    font-family: neueMed;
+    src: url("/fonts/neueHassDisplay/NeueHaasDisplayMediu.ttf");
+}
+
+@font-face {
+    font-family: neueThin;
+    src: url("/fonts/neueHassDisplay/NeueHaasDisplayThin.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* what we do section  */
+
+.whatWeDo {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 170px;
+}
+
+.whatWeDo .whatWeDO-text {
+    width: 50%;
+}
+
+.whatWeDo .whatWeDO-text .whatWeDo-head {
+    font-size: 60px;
+    font-family: neueBlack;
+    color: #252525;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.whatWeDo .whatWeDO-text .whatWeDo-para {
+    color: #505050;
+    font-family: neueThin;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    max-width: 500px;
+}
+
+.whatWeDo .whatWeDo-img {
+    width: 50%;
+}
+
+.whatWeDo .whatWeDo-img .img-1 {
+    width: 100%;
+}
+
+/* card section  */
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+    background-color: #F6F8FC;
+}
+
+.cards .card-con {
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+    border-right: 1px solid #E1E9F4;
+    border-left: 1px solid #E1E9F4;
+    border-bottom: 1px solid #E1E9F4;
+}
+
+.cards .mission-card {
+    padding-bottom: 75px;
+}
+
+.cards .card-con .img-2,
+.cards .card-con .img-3 {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.card-con .card-text {
+    padding: 20px;
+}
+
+.card-con .card-text .card-head {
+    font-family: neueBlack;
+    font-size: 30px;
+    margin-bottom: 30px;
+    max-width: 360px;
+}
+
+.card-con .card-text .card-para {
+    color: #505050;
+    font-family: neueThin;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    max-width: 500px;
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+
+    /* what we do seciton */
+
+    .whatWeDo {
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .whatWeDo .whatWeDO-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whatWeDo .whatWeDO-text .whatWeDo-head {
+        font-size: 40px;
+    }
+
+    .whatWeDo .whatWeDO-text .whatWeDo-para {
+        max-width: 600px;
+    }
+
+    .whatWeDo .whatWeDo-img {
+        width: 80%;
+    }
+
+    /* cards section */
+
+    .cards {
+        flex-direction: column;
+        gap: 60px;
+        padding: 60px;
+    }
+
+    .cards .card-con {
+        width: 100%;
+    }
+
+    .card-con .card-text {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards .mission-card {
+        padding-bottom: 0px;
+    }
+
+    .card-con .card-text .card-head {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    /* what we do seciton */
+
+    .whatWeDo {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .whatWeDo .whatWeDO-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whatWeDo .whatWeDO-text .whatWeDo-head {
+        font-size: 40px;
+    }
+
+    .whatWeDo .whatWeDO-text .whatWeDo-para {
+        max-width: 600px;
+        font-size: 14px;
+    }
+
+    .whatWeDo .whatWeDo-img {
+        width: 90%;
+    }
+
+    /* cards section */
+
+    .cards {
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+    }
+
+    .cards .card-con {
+        width: 100%;
+    }
+
+    .cards .mission-card {
+        padding-bottom: 0px;
+    }
+
+    .card-con .card-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card-con .card-text .card-head {
+        font-size: 20px;
+        margin-bottom: 20px;
+        max-width: 360px;
+    }
+
+    .card-con .card-text .card-para {
+        font-size: 14px;
+        font-weight: 900;
+        max-width: 500px;
+    }
+}
