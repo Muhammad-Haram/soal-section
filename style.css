@@ -1,20 +1,10 @@
 @font-face {
-    font-family: neueBlack;
+    font-family: neueHassDisplayExtraBold;
     src: url("/fonts/neueHassDisplay/NeueHaasDisplayBlack.ttf");
 }
 
 @font-face {
-    font-family: neueBold;
-    src: url("/fonts/neueHassDisplay/NeueHaasDisplayBold.ttf");
-}
-
-@font-face {
-    font-family: neueMed;
-    src: url("/fonts/neueHassDisplay/NeueHaasDisplayMediu.ttf");
-}
-
-@font-face {
-    font-family: neueThin;
+    font-family: neueHassDisplayThin;
     src: url("/fonts/neueHassDisplay/NeueHaasDisplayThin.ttf");
 }
 
@@ -42,7 +32,7 @@
 
 .whatWeDo .whatWeDO-text .whatWeDo-head {
     font-size: 60px;
-    font-family: neueBlack;
+    font-family: neueHassDisplayExtraBold;
     color: #252525;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -50,7 +40,7 @@
 
 .whatWeDo .whatWeDO-text .whatWeDo-para {
     color: #505050;
-    font-family: neueThin;
+    font-family: neueHassDisplayThin;
     font-weight: 900;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -101,7 +91,7 @@
 }
 
 .cards-aboutus-container .cards-aboutus-text .card-aboutus-head {
-    font-family: neueBlack;
+    font-family: neueHassDisplayExtraBold;
     font-size: 30px;
     margin-bottom: 30px;
     max-width: 360px;
@@ -109,7 +99,7 @@
 
 .cards-aboutus-container .cards-aboutus-text .card-aboutus-para {
     color: #505050;
-    font-family: neueThin;
+    font-family: neueHassDisplayThin;
     font-weight: 900;
     letter-spacing: 1px;
     word-spacing: 1px;
